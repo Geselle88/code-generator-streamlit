@@ -6,7 +6,7 @@ from together import Together
 os.environ['TOGETHER_API_KEY'] = st.secrets["TOGETHER_API_KEY"]
 
 # Initialize Together client
-client = Together()
+client = Together() 
 
 # Function to generate Python code using CodeLlama
 def generate_code_with_codellama(description):
